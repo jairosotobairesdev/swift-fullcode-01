@@ -19,6 +19,8 @@ jobs:
         run: echo "$HOME"
       - name: Show branch
         run: echo "$GITHUB_REF"
+      - name: Show github workspaceß
+        run: echo "$GITHUB_WORKSPACE"
         
         
 
