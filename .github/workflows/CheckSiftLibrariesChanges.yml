@@ -13,6 +13,8 @@ jobs:
         uses: actions/checkout@v2
       - name: List contents
         run: ls -l
+      - name: Show repository URL
+        run: echo $VARIABLE_GITHUBREPOSITORY
         
 
 
