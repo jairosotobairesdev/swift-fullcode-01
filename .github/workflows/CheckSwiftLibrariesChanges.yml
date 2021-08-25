@@ -21,6 +21,8 @@ jobs:
         run: echo "$GITHUB_REF"
       - name: Show github workspaceß
         run: echo "$GITHUB_WORKSPACE"
+      - name: Check python version
+        run: python --version
         
         
 
