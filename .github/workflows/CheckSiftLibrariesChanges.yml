@@ -1,0 +1,20 @@
+name: CheckSiftLibrariesChanges
+
+on: 
+  push:
+    branches:
+      - main
+jobs:
+  job01:
+    name: Job 01
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: List contents
+        run: ls -l
+        
+
+
+
+  
