@@ -51,6 +51,9 @@
 		59FFC57426D693AE006482D7 /* swift-app-01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-app-01UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FFC57826D693AE006482D7 /* swift_app_01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_app_01UITests.swift; sourceTree = "<group>"; };
 		59FFC57A26D693AE006482D7 /* swift_app_01UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_app_01UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59FFC58926D69629006482D7 /* swift-lib-01 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "swift-lib-01"; sourceTree = "<group>"; };
+		59FFC58A26D69682006482D7 /* swift-lib-02 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "swift-lib-02"; sourceTree = "<group>"; };
+		59FFC58B26D696D0006482D7 /* swift-lib-03 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "swift-lib-03"; sourceTree = "<group>"; };
 		5CEBB20DBFC391BD56589A48 /* Pods_swift_app_01Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_app_01Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F10AF07B9A9C465FD12C20 /* Pods-swift-app-01-swift-app-01UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-app-01-swift-app-01UITests.release.xcconfig"; path = "Target Support Files/Pods-swift-app-01-swift-app-01UITests/Pods-swift-app-01-swift-app-01UITests.release.xcconfig"; sourceTree = "<group>"; };
 		A55B8DB0809A072088F01896 /* Pods-swift-app-01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-app-01.debug.xcconfig"; path = "Target Support Files/Pods-swift-app-01/Pods-swift-app-01.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,7 +99,6 @@
 				EA6B8FF0F2A0A2601D9E1B11 /* Pods-swift-app-01Tests.debug.xcconfig */,
 				3EC290D07A728CACD9782A0D /* Pods-swift-app-01Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -125,6 +127,7 @@
 		59FFC55C26D693AC006482D7 /* swift-app-01 */ = {
 			isa = PBXGroup;
 			children = (
+				59FFC58826D6957D006482D7 /* Packages */,
 				59FFC55D26D693AC006482D7 /* swift_app_01App.swift */,
 				59FFC55F26D693AC006482D7 /* ContentView.swift */,
 				59FFC56126D693AE006482D7 /* Assets.xcassets */,
@@ -156,6 +159,16 @@
 				59FFC57A26D693AE006482D7 /* swift_app_01UITestsLaunchTests.swift */,
 			);
 			path = "swift-app-01UITests";
+			sourceTree = "<group>";
+		};
+		59FFC58826D6957D006482D7 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				59FFC58B26D696D0006482D7 /* swift-lib-03 */,
+				59FFC58A26D69682006482D7 /* swift-lib-02 */,
+				59FFC58926D69629006482D7 /* swift-lib-01 */,
+			);
+			path = Packages;
 			sourceTree = "<group>";
 		};
 		B947ED5ABFB0E750FA03CEA5 /* Frameworks */ = {
