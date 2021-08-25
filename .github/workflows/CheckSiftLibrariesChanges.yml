@@ -15,6 +15,11 @@ jobs:
         run: ls -l
       - name: Show repository URL
         run: echo "$GITHUB_REPOSITORY"
+      - name: Show home directory
+        run: echo "$HOME"
+      - name: Show branch
+        run: echo "$GITHUB_REF"
+        
         
 
 
