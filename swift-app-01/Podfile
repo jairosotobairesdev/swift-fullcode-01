@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'swift-app-01' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for swift-app-01
+
+  target 'swift-app-01Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'swift-app-01UITests' do
+    # Pods for testing
+  end
+
+end
