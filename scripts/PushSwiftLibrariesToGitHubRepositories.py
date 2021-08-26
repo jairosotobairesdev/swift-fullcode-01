@@ -1,3 +1,3 @@
-print("Excecuting python script: PushSwiftLibrariesToGitHubRepositories")
+print("Executing python script: PushSwiftLibrariesToGitHubRepositories")
 
 
