@@ -11,7 +11,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Push Swift Libraries
-        run: pythin scripts/PushSwiftLibrariesToGitHubRepositories.py
+        run: python scripts/PushSwiftLibrariesToGitHubRepositories.py
 
 
 
