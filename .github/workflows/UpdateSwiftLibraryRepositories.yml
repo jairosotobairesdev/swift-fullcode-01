@@ -1,0 +1,17 @@
+name: UpdateSwiftLibraryRepositories
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  pushChanges:
+    name: Push changes
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Push Swift Libraries
+        run: scripts/PushSwiftLibrariesToGitHubRepositories.py
+
+
+
