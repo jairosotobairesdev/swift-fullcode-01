@@ -32,21 +32,24 @@ def push_package(package_path,url_library_repo,github_pat,library_repo_path, lib
     shutil.rmtree(library_repo_path,True)    
     repo = Repo.clone_from(url_library_repo,library_repo_path)
     copy_tree(package_path,library_repo_path,False,1)
-    os.system("cd " + library_repo_path + ";git add . " + ";git commit -m \"" + library_version + "\"" + ";git tag " + library_version + ";git push")
+    os.system("cd " + library_repo_path + ";git add . " + ";git commit -m \"" + library_version + "\"" + ";git tag " + library_version + ";git push;git push --tags")
     shutil.rmtree(library_repo_path,True)
 
     return("Repo updated: " + library_repo_path)
 
 # Main body execution
 
-#root_folder = sys.argv[1]
-#github_pat = sys.argv[2]
+root_folder = sys.argv[1]
+github_pat = sys.argv[2]
+url_repo_part = sys.argv[3]
+path_repo_part = sys.argv[4]
+library_version = sys.argv[5]
 
-root_folder = "/Users/Jairo.Soto/Documents/code/swift-fullcode-01"
-github_pat = "u5wrjfkjderotfjwerjfiwe"
-url_repo_part = "https://github.com/jairosotobairesdev/"
-path_repo_part = "/Users/Jairo.Soto/Documents/code"
-library_version = "1.0.2-rc1"
+#root_folder = "/Users/Jairo.Soto/Documents/code/swift-fullcode-01"
+#github_pat = "u5wrjfkjderotfjwerjfiwe"
+#url_repo_part = "https://github.com/jairosotobairesdev/"
+#path_repo_part = "/Users/Jairo.Soto/Documents/code"
+#library_version = "1.0.9-rc1"
 
 swift_library_paths = search_package_folders(root_folder)
 
