@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0258DDFE1242A9117DE3A8F7 /* Pods_swift_app_01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37220DC690C13146233D949F /* Pods_swift_app_01.framework */; };
+		59550F9326DEA6A3001745C0 /* swift-lib-01 in Frameworks */ = {isa = PBXBuildFile; productRef = 59550F9226DEA6A3001745C0 /* swift-lib-01 */; };
+		59550F9526DEA6A3001745C0 /* swift-lib-02 in Frameworks */ = {isa = PBXBuildFile; productRef = 59550F9426DEA6A3001745C0 /* swift-lib-02 */; };
+		59550F9726DEA6A3001745C0 /* swift-lib-03 in Frameworks */ = {isa = PBXBuildFile; productRef = 59550F9626DEA6A3001745C0 /* swift-lib-03 */; };
 		59FFC55E26D693AC006482D7 /* swift_app_01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FFC55D26D693AC006482D7 /* swift_app_01App.swift */; };
 		59FFC56026D693AC006482D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FFC55F26D693AC006482D7 /* ContentView.swift */; };
 		59FFC56226D693AE006482D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59FFC56126D693AE006482D7 /* Assets.xcassets */; };
@@ -66,7 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59550F9526DEA6A3001745C0 /* swift-lib-02 in Frameworks */,
+				59550F9726DEA6A3001745C0 /* swift-lib-03 in Frameworks */,
 				0258DDFE1242A9117DE3A8F7 /* Pods_swift_app_01.framework in Frameworks */,
+				59550F9326DEA6A3001745C0 /* swift-lib-01 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +204,11 @@
 			dependencies = (
 			);
 			name = "swift-app-01";
+			packageProductDependencies = (
+				59550F9226DEA6A3001745C0 /* swift-lib-01 */,
+				59550F9426DEA6A3001745C0 /* swift-lib-02 */,
+				59550F9626DEA6A3001745C0 /* swift-lib-03 */,
+			);
 			productName = "swift-app-01";
 			productReference = 59FFC55A26D693AC006482D7 /* swift-app-01.app */;
 			productType = "com.apple.product-type.application";
@@ -739,6 +750,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		59550F9226DEA6A3001745C0 /* swift-lib-01 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "swift-lib-01";
+		};
+		59550F9426DEA6A3001745C0 /* swift-lib-02 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "swift-lib-02";
+		};
+		59550F9626DEA6A3001745C0 /* swift-lib-03 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "swift-lib-03";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 59FFC55226D693AC006482D7 /* Project object */;
 }

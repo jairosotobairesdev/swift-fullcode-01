@@ -6,10 +6,13 @@
 //
 
 import SwiftUI
+import swift_lib_03
+
+
 
 struct ContentView: View {
     var body: some View {
-        Text("Check changes in Swift packages")
+        Text(swift_lib_03().concatenateStrings(a: "World", b: "of swift"))
             .padding()
     }
 }
