@@ -11,6 +11,7 @@
 		59550F9326DEA6A3001745C0 /* swift-lib-01 in Frameworks */ = {isa = PBXBuildFile; productRef = 59550F9226DEA6A3001745C0 /* swift-lib-01 */; };
 		59550F9526DEA6A3001745C0 /* swift-lib-02 in Frameworks */ = {isa = PBXBuildFile; productRef = 59550F9426DEA6A3001745C0 /* swift-lib-02 */; };
 		59550F9726DEA6A3001745C0 /* swift-lib-03 in Frameworks */ = {isa = PBXBuildFile; productRef = 59550F9626DEA6A3001745C0 /* swift-lib-03 */; };
+		59550F9A26DEBC7B001745C0 /* swift-lib-math in Frameworks */ = {isa = PBXBuildFile; productRef = 59550F9926DEBC7B001745C0 /* swift-lib-math */; };
 		59FFC55E26D693AC006482D7 /* swift_app_01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FFC55D26D693AC006482D7 /* swift_app_01App.swift */; };
 		59FFC56026D693AC006482D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FFC55F26D693AC006482D7 /* ContentView.swift */; };
 		59FFC56226D693AE006482D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59FFC56126D693AE006482D7 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		2C1ABFDEF8E5D9CDDAD8C965 /* Pods-swift-app-01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-app-01.release.xcconfig"; path = "Target Support Files/Pods-swift-app-01/Pods-swift-app-01.release.xcconfig"; sourceTree = "<group>"; };
 		37220DC690C13146233D949F /* Pods_swift_app_01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_app_01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC290D07A728CACD9782A0D /* Pods-swift-app-01Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-app-01Tests.release.xcconfig"; path = "Target Support Files/Pods-swift-app-01Tests/Pods-swift-app-01Tests.release.xcconfig"; sourceTree = "<group>"; };
+		59550F9826DEBC68001745C0 /* swift-lib-math */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "swift-lib-math"; sourceTree = "<group>"; };
 		59FFC55A26D693AC006482D7 /* swift-app-01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-app-01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FFC55D26D693AC006482D7 /* swift_app_01App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_app_01App.swift; sourceTree = "<group>"; };
 		59FFC55F26D693AC006482D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			files = (
 				59550F9526DEA6A3001745C0 /* swift-lib-02 in Frameworks */,
 				59550F9726DEA6A3001745C0 /* swift-lib-03 in Frameworks */,
+				59550F9A26DEBC7B001745C0 /* swift-lib-math in Frameworks */,
 				0258DDFE1242A9117DE3A8F7 /* Pods_swift_app_01.framework in Frameworks */,
 				59550F9326DEA6A3001745C0 /* swift-lib-01 in Frameworks */,
 			);
@@ -170,6 +173,7 @@
 		59FFC58826D6957D006482D7 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				59550F9826DEBC68001745C0 /* swift-lib-math */,
 				59FFC58B26D696D0006482D7 /* swift-lib-03 */,
 				59FFC58A26D69682006482D7 /* swift-lib-02 */,
 				59FFC58926D69629006482D7 /* swift-lib-01 */,
@@ -208,6 +212,7 @@
 				59550F9226DEA6A3001745C0 /* swift-lib-01 */,
 				59550F9426DEA6A3001745C0 /* swift-lib-02 */,
 				59550F9626DEA6A3001745C0 /* swift-lib-03 */,
+				59550F9926DEBC7B001745C0 /* swift-lib-math */,
 			);
 			productName = "swift-app-01";
 			productReference = 59FFC55A26D693AC006482D7 /* swift-app-01.app */;
@@ -763,6 +768,10 @@
 		59550F9626DEA6A3001745C0 /* swift-lib-03 */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = "swift-lib-03";
+		};
+		59550F9926DEBC7B001745C0 /* swift-lib-math */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "swift-lib-math";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
